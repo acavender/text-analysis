@@ -69,7 +69,7 @@ wordnet_lemmatizer = WordNetLemmatizer()
 Now we will lemmatize the words in the list. This time, we will only use the faster version because it takes a long time.
 
 ```python
-text1_clean = [wordnet_lemmatizer.lemmatize(t) for t in t1_tokens]
+text1_clean = [wordnet_lemmatizer.lemmatize(t) for t in text1_tokens]
 ```
 
 Let's check now to see how long our final, cleaned version of the data is and then check the unique set of words:
@@ -85,7 +85,7 @@ This set should be much smaller than the set before we lemmatized. Now if we wer
 Now let's have a look at the words Melville uses in *Moby Dick*. We'd like to look at all of the *types*, but not necessarily all of the *tokens.* We will order this set so that it is in an order we can handle. In the next cell, type:
 
 ```python
-sorted(set(text1_tokens))
+sorted(set(text1_clean))
 ```
 
 A list of all the words in *Moby Dick* should appear. The list begins with 'a', which we might have expected to be removed in the stemming process, and some words we wouldn't have expected, such as "abbreviate" and "abbreviation". As we mentioned before, lemmatizing looks up the dictionary form of the word, and these would be different entries. A better example is with 'meaning' and 'meanness.' A lemmatizer would retain these two as separate words. A stemmer would not. We will stick with the output of the Lemmatizer, but just for illustration, we can try it out with a stemmer instead (Porter is the most common).  The code to implement this and view the output is below:
@@ -93,7 +93,7 @@ A list of all the words in *Moby Dick* should appear. The list begins with 'a', 
 ```python
 from nltk.stem import PorterStemmer
 porter_stemmer = PorterStemmer()
-t1_porter = [porter_stemmer.stem(t) for t in t1_tokens]
+t1_porter = [porter_stemmer.stem(t) for t in text1_tokens]
 print(len(set(t1_porter)))
 print(sorted(set(t1_porter)))
 
