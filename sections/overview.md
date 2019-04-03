@@ -14,7 +14,7 @@ If you have not already installed the [Anaconda](https://www.anaconda.com/downlo
 
 You will also need [`nltk`](https://github.com/DHRI-Curriculum/install/blob/master/sections/nltk.md) and [`matplotlib`](https://github.com/DHRI-Curriculum/install/blob/master/sections/conda.md) to complete this tutorial. Both packages come installed with Anaconda. To check to be sure you have them, open a new Jupyter Notebook (or any IDE to run Python).
 
-Find Anaconda on your computer, Launch a Jupyter Notebook. 
+Find Anaconda Navigator on your computer (it should be located in the folder with your other applications), and from Acadonda Navigator's interface, launch a Jupyter Notebook.
 
 ![jupyter](https://github.com/michellejm/NLTK_DHRI/blob/master/Images/jupyter.png)
 
