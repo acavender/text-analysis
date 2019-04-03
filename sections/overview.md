@@ -12,7 +12,7 @@ Before getting started, clone [this repository](https://github.com/DHRI-Curricul
 
 If you have not already installed the [Anaconda](https://www.anaconda.com/download/) distribution of Python 3, please do so. 
 
-You will also need [`nltk`](https://github.com/DHRI-Curriculum/install/blob/master/sections/nltk.md) and [matplotlib](https://github.com/DHRI-Curriculum/install/blob/master/sections/conda.md) to complete this tutorial. Both packages come installed with Anaconda. To check to be sure you have them, open a new Jupyter Notebook (or any IDE to run Python).
+You will also need [`nltk`](https://github.com/DHRI-Curriculum/install/blob/master/sections/nltk.md) and [`matplotlib`](https://github.com/DHRI-Curriculum/install/blob/master/sections/conda.md) to complete this tutorial. Both packages come installed with Anaconda. To check to be sure you have them, open a new Jupyter Notebook (or any IDE to run Python).
 
 Find Anaconda on your computer, Launch a Jupyter Notebook. 
 
