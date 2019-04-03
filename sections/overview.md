@@ -10,7 +10,9 @@ Before getting started, clone [this repository](https://github.com/DHRI-Curricul
 
 ## Setup and installation
 
-If you have not already installed the [Anaconda](https://www.anaconda.com/download/) distribution of Python 3, please do so. You will also need nltk and matplotlib to complete this tutorial. Both packages come installed with Anaconda. To check to be sure you have them, open a new Jupyter Notebook (or any IDE to run Python).
+If you have not already installed the [Anaconda](https://www.anaconda.com/download/) distribution of Python 3, please do so. 
+
+You will also need [`nltk`](https://github.com/DHRI-Curriculum/install/blob/master/sections/nltk.md) and [matplotlib](https://github.com/DHRI-Curriculum/install/blob/master/sections/conda.md) to complete this tutorial. Both packages come installed with Anaconda. To check to be sure you have them, open a new Jupyter Notebook (or any IDE to run Python).
 
 Find Anaconda on your computer, Launch a Jupyter Notebook. 
 
@@ -38,7 +40,7 @@ Press **Shift** + **Enter** to run the cell (or click run at the top of the page
 
 If nothing happens, they are installed and you are ready to move on! If you get an error message, either you have a typo or they are not installed. If it is the latter, open the command line and type:
 
-```python
+```bash
 conda install nltk -y
 conda install matplotlib -y
 ```
