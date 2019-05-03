@@ -6,7 +6,7 @@ This tutorial will give a brief overview of the considerations and tools involve
 
 ## Cloning the repository
 
-Before getting started, clone [this repository](https://github.com/dhsouthbend/text-analysis) to your local machine. Instructions for cloning Git repositories can be found [here](https://github.com/DHRI-Curriculum/git/blob/master/sections/cloning.md).
+Before getting started, clone [this repository](https://github.com/dhsouthbend/text-analysis) to your local machine. Instructions for cloning Git repositories can be found [here](https://github.com/dhsouthbend/git/blob/master/sections/cloning.md).
 
 ## Setup and installation
 
