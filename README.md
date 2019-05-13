@@ -31,7 +31,7 @@ By the end of this workshop, you will be able to:
 
 -----
 
-Session Leader: [Michelle A. McSweeney, PhD](http://www.michelleamcsweeney.com) and Rachel Rakov  
+Session Leader: Caroline McCraw
 Based on previous work by: [Michelle A. McSweeney, PhD](http://www.michelleamcsweeney.com) and Rachel Rakov   
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
