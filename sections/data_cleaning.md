@@ -24,7 +24,7 @@ The first has more information about tense, and which house in particular, but t
 
 In going from the first sentence to the normalized words, we removed the stop words (*the* and *is*), and removed punctuation and case, and lemmatized what was left (*burning* becomes *burn* - though we might have stemmed this, its impossible to tell from the example). This results in what is essentially a "bag of words," or a corpus of words without any structure. Because normalizing your text reduces the number of words (and therefore the number of dimensions in your data), and keeps only the words that contribute meaning to the document, this cleaning is usually desirable. 
 
-Again, this will be covered more in depth in the Machine Learning Tutorial, but for the time being, we just need to know that there is "clean" and "dirty" versions of text data. Sometimes our questions are about the clean data, but sometimes our questions are in the "dirt."
+For now, we just need to know that there are "clean" and "dirty" versions of text data. Sometimes our questions are about the clean data, but sometimes our questions are in the "dirt."
 
 
 ## Words into numbers
