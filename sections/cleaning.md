@@ -2,14 +2,14 @@
 
 # Making Your Own Corpus: Data Cleaning
 
-Thus far, we have been asking questions that take stopwords and grammatical features into account. For the most part, we want to exclude these features since they don't actually contribute very much semantic content to our models. Therefore, we will:
+Thus far, we have been asking questions that take stop words and grammatical features into account. For the most part, we want to exclude these features since they don't actually contribute very much semantic content to our models. Therefore, we will:
 
 1. Remove capitalization and punctuation (we've already done this).
 2. Remove stop words.
 3. Lemmatize (or stem) our words, i.e. "jumping" and "jumps" become "jump."
 
 
-## Adding Stopwords
+## Removing Stop Words
 
 We already completed step one, and are now working with our `text1_tokens`. Remember, this variable,  `text1_tokens`, contains a list of strings that we will work with. We want to remove the stop words from that list. The NLTK library comes with fairly comprehensive lists of stop words for many languages. Stop words are function words that contribute very little semantic meaning and most often have grammatical functions. Usually, these are function words such as determiners, prepositions, auxiliaries, and others.
 
