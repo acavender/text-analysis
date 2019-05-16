@@ -1,7 +1,9 @@
 
 # Introduction to Text Analysis with Python and the Natural Language ToolKit (NLTK)
 
-Digital technologies have made vast amounts of text available to researchers, and this same technological moment has provided us with the capacity to analyze that text. The first step in that analysis is to **transform texts designed for human consumption into a form a computer can analyze**. Using Python and the Natural Language ToolKit (commonly called NLTK), this workshop introduces strategies to turn qualitative texts into quantitative objects. Through that process, we will present a variety of strategies for simple analysis of text-based data. 
+Digital technologies have made vast amounts of text available to researchers, and this same technological moment has provided us with the capacity to analyze that text. The first step in that analysis is to **transform texts designed for human consumption into a form a computer can analyze**. 
+
+Using Python and the Natural Language ToolKit (commonly called NLTK), this workshop introduces strategies to turn qualitative texts into quantitative objects. Through that process, we will present a variety of strategies for simple analysis of text-based data. 
 
 By the end of this workshop, you will be able to:
 
