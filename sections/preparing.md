@@ -4,13 +4,11 @@
 
 All of the code for this section is in a Jupyter Notebook in the GitHub repository. I encourage you to follow along by retyping all of the code, but if you get lost, or want another reference, the code is there as well. 
 
-To open the notebook, first create a `projects` folder if you don't already have one by entering this command in your terminal:
+To open the notebook, first create a `text-analysis` folder within your projects folder by entering this command in your terminal:
 
 ```bash
-mkdir -p ~/Desktop/projects
+mkdir -p ~/Desktop/projects/text-analysis
 ```
-
-If you already have a projects folder, you can skip this step.
 
 Next, clone the text analysis session repository into your projects folder by entering this command:
 
