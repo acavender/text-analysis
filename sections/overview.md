@@ -4,9 +4,6 @@
 
 This tutorial will give a brief overview of the considerations and tools involved in basic text analysis with Python. By completing this tutorial, you will have a general sense of how to turn text into data using the Python package, NLTK. You will also be able to take publicly available text files and transform them into a corpus that you can perform your own analysis on. Finally, you will have some insight into the types of questions that can be addressed with text analysis. 
 
-## Cloning the repository
-
-Before getting started, clone [this repository](https://github.com/dhsouthbend/text-analysis) to your local machine. Instructions for cloning Git repositories can be found [here](https://github.com/dhsouthbend/git/blob/master/sections/cloning.md).
 
 ## Setup and installation
 
